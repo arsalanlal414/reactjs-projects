@@ -12,24 +12,9 @@ function App() {
   <main className='container'>
       <h3>{people.length} birthdays today</h3>
       <List people={people} />
-      <button onClick={() => setPeople([])}>clear all</button>
+      <button onClick={() => setPeople([])}>Clear All</button>
     </main>
   )
-
-  // console.log(Data)
-  // const [people, setPeople] = useState(Data)
-  // // console.log("peoples: ",People)
-  // return (
-  //   <div className="App">
-  //     <h3>{people.length} Birthdays Today</h3>
-      
-  //     <div className='card'>
-  //       <List people={people}/>
-  //       <button onClick={() => setPeople([])}>clear All</button>
-  //     </div>
-      
-  //   </div>
-  // );
 }
 
 export default App;
