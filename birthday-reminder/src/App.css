@@ -1,0 +1,75 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(255, 101, 126);
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.container{
+  max-width: 400px;
+  border-radius: 5px;
+  font-family: system-ui;
+  background-color: white;
+  color: rgb(67, 66, 66);
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h3{
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+}
+
+.container h4{
+  font-size: .85rem;
+  letter-spacing: 0.09rem;
+  font-weight: 700;
+}
+
+.container p{
+  font-size: 0.85rem;
+  color: rgba(67, 66, 66, 0.613);
+}
+
+.container img{
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+}
+
+.container button{
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 101, 126);
+  color: white;
+}
+
+.container ul{
+  list-style: none;
+  margin: 10px 0px;
+}
+
+li{
+  display: flex;
+  margin: 15px 0px;
+}
+li div{
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  line-height: 1.25rem;
+}
+
