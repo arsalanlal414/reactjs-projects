@@ -3,8 +3,6 @@ import './App.css';
 import Data from './Data';
 import List from './List'
 
-  // console.log(Data)
-
 function App() {
   const [people, setPeople] = useState(Data)
 
